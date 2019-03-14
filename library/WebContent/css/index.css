@@ -30,6 +30,8 @@ a:hover{color:#49E2FA;}
 #result table{maegin:20px;}
 #result table td{vertical-align:top;font-size:13px;}
 
+#search_div{height:75px;margin-top:25px;}
+
 .location{font-size: 15px;}
 .book_title{font-size: 20px; font-weight:bold;margin:15px 0 25px 0;}
 .author{font-size: 13px;}
