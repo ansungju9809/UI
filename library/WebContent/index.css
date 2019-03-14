@@ -14,13 +14,18 @@ a:hover{color:#49E2FA;}
 #search{width:400px;height:30px;}
 #btn{width:50px;height:30px;}
 
-#dropmenu{width:500px; height:50px;float:right;}
-#dropmenu>li{width:100px; height:50px;float:left;line-height:50px;overflow:hidden;}
-#dropmenu>li:hover{transition:0.5s;}
+#dropmenu{width:500px; height:50px;float:right;background-color: #906666;text-align:center;margin:25px;}
+#dropmenu a{color:white;}
+#dropmenu>li{width:100px; height:50px;float:left;line-height:50px;}
+#dropmenu>li>ul{width:100px;}
+#dropmenu>li>ul>li{width:100px;height:0px;overflow:hidden;background-color: #906666;}
+#dropmenu>li:hover ul>li{width:100px;height:50px;transition:0.5s;z-index:400;position:relative}
 
 #menu{width:200px;float:left;border:1px solid black;margin:10px;}
 #menu table{margin: 0 auto;}
+#menu table th{background-color: #643838;line-height:50px;font-family:'도서관체';}
 #menu td{width:200px; height:50px;text-align:center;line-height:50px;}
+#menu td:hover{background-color: #906666;}
 #result{width:600px;margin:10px;float:left;}
 #result table{maegin:20px;}
 #result table td{vertical-align:top;font-size:13px;}
