@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{margin:0 auto; padding:0;}
+li{list-style:none;}
+a{text-decoration:none;color:white;}
+
+h2{line-height:50px;}
+
+/*index.jsp css*/
+#wrap{width:1200px;}
+header{width:1200px; height:100px;text-align:center; line-height:100px;background-color:yellow;font-size:30px;font-weight:bold;}
+
+#section{width:1200px;height:600px;background-color:#EDEDED;}
+
+#nav{width:1200px;float:right;height:50px;background-color:red;line-height:50px;}
+#nav>li{width:150px;float:left;text-align:center;}
+
+footer{width:1200px;height:100px;line-height:100px;text-align:center;background-color:yellow;}
+
+/*insert.jsp css*/
+
+#insert_section{width:1200px;height:600px;background-color:#EDEDED;text-align:center;}
+
+table{border:1px solid black;width:600px;height:200px;}
+tbody{height:50px;}
+table tr{width:600px;}
+table th,td{border:1px solid black;width:200px;}
+table td input,select{float:left;height:25px;}
+#btn{text-align:center;}
+#submit{margin:0 auto;}
+/*select.jsp css*/
+
+#select_section{width:1200px;height:600px;background-color:#EDEDED;text-align:center;}
+
+table{width:auto;height:auto;}
+/*branch_select.jsp css*/
+
+#branch_select_section{width:1200px;height:600px;background-color:#EDEDED;text-align:center;}
+
+/*product_select.jsp css*/
+
+#product_select_section{width:1200px;height:600px;background-color:#EDEDED;text-align:center;}
