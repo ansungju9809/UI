@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<script type="text/javascript"src="js/check.js"></script>
 <link href="css/index.css" rel="stylesheet">
 </head>
 <body>
@@ -48,7 +49,7 @@
 						<td><input type="text" size="30"/></td>
 					</tr>
 					<tr>
-						<td colspan="2" id="btn"><input type="submit" value="전표등록"/><input type="submit" value="다시쓰기"/></td>
+						<td colspan="2" id="btn"><input type="submit" id="submit" value="전표등록"/><input type="submit" value="다시쓰기"/></td>
 					</tr>
 				</table>
 			</form>

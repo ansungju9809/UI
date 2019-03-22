@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<script src="js/check.js"></script>
 <link href="css/index.css" rel="stylesheet">
 </head>
 <body>
